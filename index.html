@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home d-flex align-items-center text-center">
+    <div class="container">
+      <img src="profile2.jpg" alt="Profile Photo" class="profile2.jpg">
+      <h1>Hello, I'm <span class="highlight">Sania Gade</span></h1>
+      <p class="lead">Web Developer | Frontend Enthusiast | Lifelong Learner</p>
+      <br>
+      <br>
+    </div>
+  </section>
+ <br> 
+  <!-- About Me Section -->
+  <section id="about" class="about section-padding">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <p>Hello! I'm Sania Gade, a passionate and curious Second Year Bachelor of Computer Applications (BCA) student. I have a strong interest in web development, programming, and exploring the latest technologies. I love building creative projects like weather apps, games, and management systems that solve real-world problems. I’m constantly learning new skills and looking for opportunities to grow as a developer. My goal is to become a full-stack developer and contribute to impactful tech solutions..</p>
+      <ul>
+        <li><strong>Education:</strong> BCA, At pillai college of Arts,commerce & science - Navi-Mumbai</li>
+        <li><strong>Experience:</strong> Intern at Prodigy InfoTech | Freelance Projects</li>
+        <li><strong>Skills:</strong> HTML5, CSS3, Bootstrap, JavaScript, React.js, PHP, MySQL</li>
+      </ul>
+    </div>
+  </section>
+
+  <br>
+  <br>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section-padding bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">My Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Bank Management System</h5>
+              <p class="card-text">The Bank Management System is a web-based application that allows users to manage banking operations like account creation, transactions, balance inquiry, and fund transfers efficiently and securely. 🏦💻</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">React Quiz App</h5>
+              <p class="card-text">A timed quiz app built using React with dynamic question rendering.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Weather App</h5>
+              <p class="card-text">The Weather App is a web-based application that fetches and displays real-time weather data for any city using the OpenWeatherMap API. 🌦️</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title"> Stopwatch Web App</h5>
+              <p class="card-text"> The Stopwatch Web App is a simple digital timer that allows users to start, stop, and reset time intervals directly in the browser. ⏱️</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title"> Tic-Tac-Toe Game </h5>
+              <p class="card-text">The Tic-Tac-Toe Game is a classic two-player web game where players take turns marking X or O on a 3×3 grid to get three in a row and win. 🎮 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+  <br>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section-padding">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 bg-dark text-light">
+    &copy; 2025 Sania Gade| All Rights Reserved
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
